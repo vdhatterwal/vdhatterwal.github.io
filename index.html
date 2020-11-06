@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>vikesh.me</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="icon" href="favicon.png" type="image/png" sizes="36x36">
+</head>
+<body>
+<div class="cards">
+	<div class="contact">Contact Me</div>
+	<div class="contact-form">
+		<a href="#" class="close"><i class="fa fa-times"></i></a>
+		<form>
+			<div class="control"><input type="text"  id="name"/><label for="name">Your Name</label></div>
+			<div class="control"><input type="text"  id="email"/><label for="email">Email Address</label></div>
+			<div class="control"><textarea name="" id="message"></textarea><label for="message">Message</label></div>
+			<div class="control submit"><input type="submit" value="Send Message!" /></div>
+		</form>
+	</div>
+
+	 <div class="card active" id="overview">
+		<a class="card-toggle"><i class="fa fa-arrow-circle-left"></i></a>
+		<div class="card-content">
+			<div class="row">
+				<div class="left col">
+					<h2>Personal <strong>Website</strong></h2>
+					<p>Welcome to vikesh.me. Check out following links or click Contact Me link to send me a message.</p>
+				</div>
+				<div class="right col">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="card" id="mcq">
+		<a class="card-toggle"><i><span class="fa fa-book"></span></i></a>
+		<div class="card-content">
+			<div class="row">
+				<a href="https://mcq.vikesh.me/index.html" class="toplink"></a>
+				<div class="left col">
+					<h2><strong>MCQ</strong></h2>
+					
+					<p>Check out MCQ website to attempt quizzes for SSC CGL and a few other exams.</p>
+					
+				</div>
+				<div class="right col"><img src="https://mcq.vikesh.me/favicon.png" alt="MCQ" /></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="card" id="nso">
+		<a class="card-toggle"><i><span class="fa fa-briefcase"></span></i></a>
+		<div class="card-content">
+			<div class="row">
+				<a href="https://nso.vikesh.me/index.html" class="toplink"></a>
+				<div class="left col">
+					<h2><strong>NSO</strong></h2>
+				
+					<p>Check out some tools created by me for easing work of JSO!</p>
+				</div>
+				<div class="right col"><img src="https://nso.vikesh.me/favicon.png" alt="NSO" /></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="alert-area" class="alert-area"></div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="function.js"></script>
+</body>
+</html>
